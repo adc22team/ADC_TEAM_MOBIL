@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/AltaIncidencia"
+        android:title="Nueva Incidencia"
+        android:icon="@drawable/new_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ListaIncidencia"
+        android:title="Lista Incidencia"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/BajaIncidencia"
+        android:title="Baja Incidencia"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Configuracion"
+        android:title="Configuración"
+        android:icon="@drawable/ajustesverde"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/ColorPantallaClara"
+                    android:title="Color Pantalla Clara"/>
+                <item
+                    android:id="@+id/ColorPantallaOscura"
+                    android:title="Color Pantalla Oscura"/>
+            </group>
+        </menu>
+
+        </item>
+
+    <item
+        android:id="@+id/Contacta"
+        android:title="Contacta"
+        android:icon="@drawable/mail_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Valoracion"
+        android:title="Valoración"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Desconecta"
+        android:title="Desconectar"
+        app:showAsAction="ifRoom" />
+</menu>
